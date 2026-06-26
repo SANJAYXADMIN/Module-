@@ -1,0 +1,62 @@
+import shapes
+
+s = int(input("Enter s square: "))
+print("A=", shapes.a_square(s))
+print("P =", shapes.p_square(s))
+
+l = int(input("Enter l of rect: "))
+w = int(input("Enter w  of rect: "))
+print("A =", shapes.a_rect(l, w))
+print("P=", shapes.p_rect(l, w))
+
+b = int(input("Enter b of tri: "))
+h = int(input("Enter h of tri: "))
+print("A =", shapes.a_tri(b, h))
+
+a = int(input("Enter s tri: "))
+b = int(input("Enter s tri: "))
+c = int(input("Enter s  tri: "))
+print("P=", shapes.p_tri(a, b, c))
+
+r = int(input("Enter radius of circle: "))
+print("A=", shapes.a_circle(r))
+print("p =", shapes.p_circle(r))
+
+a = int(input("Enter side 1 of trap: "))
+b = int(input("Enter side 1 of  trap: "))
+h = int(input("Enter h trap: "))
+print("Area =", shapes.a_trap(a, b, h))
+
+a = int(input("Enter sof trap: "))
+b = int(input("Enter s trap: "))
+c = int(input("Enter s  trap: "))
+d = int(input("Enter s trap: "))
+print("P=", shapes.p_trap(a, b, c, d))
+
+s = int(input("Enter s cube: "))
+print("V =", shapes.v_cube(s))
+print("S.a =", shapes.sa_cube(s))
+
+l = int(input("Enter l cuboi: "))
+w = int(input("w: "))
+h = int(input("h: "))
+print("V =", shapes.v_cuboi(l, w, h))
+print("S.a=", shapes.sa_cuboi(l, w, h))
+
+r = int(input("Enter r of cylin: "))
+h = int(input("h: "))
+print("V =", shapes.v_cylin(r, h))
+print("S.a =", shapes.sa_cylin(r, h))
+
+r = int(input("Enter r of cone: "))
+h = int(input("h: "))
+l = int(input("l: "))
+print("Volume =", shapes.v_cone(r, h))
+print("SA=", shapes.sa_cone(r, l))
+
+r = int(input("Enter radius of sphere: "))
+print("V=", shapes.v_sphere(r))
+print("SA=", shapes.sa_sphere(r))
+
+e = input("Enter expr: ")
+print(shapes.expr(e))
