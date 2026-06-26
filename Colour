@@ -1,0 +1,33 @@
+
+def black(text):
+    return "\033[30m" + str(text) + "\033[0m"
+
+def white(text):
+    return "\033[37m" + str(text) + "\033[0m"
+
+def red(text):
+    return "\033[31m" + str(text) + "\033[0m"
+
+def blue(text):
+    return "\033[34m" + str(text) + "\033[0m"
+
+def yellow(text):
+    return "\033[33m" + str(text) + "\033[0m"
+
+def green(text):
+    return "\033[32m" + str(text) + "\033[0m"
+
+def orange(text):
+    return "\033[38;5;208m" + str(text) + "\033[0m"
+
+def pink(text):
+    return "\033[95m" + str(text) + "\033[0m"
+
+def purple(text):
+    return "\033[35m" + str(text) + "\033[0m"
+
+def brown(text):
+    return "\033[38;5;94m" + str(text) + "\033[0m"
+
+def grey(text):
+    return "\033[90m" + str(text) + "\033[0m"
