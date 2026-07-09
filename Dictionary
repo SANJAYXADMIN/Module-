@@ -1,0 +1,12 @@
+def check(a,b):
+    if a in b:
+        print("Present")
+    else:
+        l=input("Enter location: ")
+        b[a]=l
+        print(b)
+
+d={"Taj Mahal":"Agra","Qutub Minar":"Delhi","Gateway of India":"Mumbai"}
+
+a=input("Enter monument: ")
+check(a,d)
