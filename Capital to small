@@ -1,0 +1,5 @@
+def small(s):
+    print(s.lower())
+
+s=input("Enter a string: ")
+small(s)
