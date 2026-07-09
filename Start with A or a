@@ -1,0 +1,7 @@
+def show(a):
+    for i in a:
+        if i[0]=="A" or i[0]=="a":
+            print(i)
+
+a=input("Enter words: ").split()
+show(a)
