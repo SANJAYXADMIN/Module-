@@ -1,0 +1,10 @@
+def count(s):
+    a=s.split()
+    c=0
+    for i in a:
+        if i=="The" or i=="the":
+            c+=1
+    print(c)
+
+s=input("Enter a string: ")
+count(s)
