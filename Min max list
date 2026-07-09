@@ -1,0 +1,6 @@
+def maxmin(a):
+    print("Maximum =",max(a))
+    print("Minimum =",min(a))
+
+a=list(map(int,input("Enter numbers: ").split()))
+maxmin(a)
