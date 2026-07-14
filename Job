@@ -1,0 +1,13 @@
+CREATE TABLE Job (
+    JobId INT PRIMARY KEY,
+    JobTitle VARCHAR(40),
+    Salary INT
+);
+
+INSERT INTO Job VALUES
+(101,'President',200000),
+(102,'Vice President',125000),
+(103,'Administration Assistant',80000),
+(104,'Accounting Manager',70000),
+(105,'Accountant',65000),
+(106,'Sales Manager',80000);
