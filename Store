@@ -1,0 +1,16 @@
+CREATE TABLE Store (
+    StoreId VARCHAR(5) PRIMARY KEY,
+    Name VARCHAR(30),
+    Location VARCHAR(30),
+    City VARCHAR(20),
+    NoOfEmp INT,
+    DateOpened DATE,
+    SalesAmount INT
+);
+
+INSERT INTO Store VALUES
+('S101','Planetfashion','KarolBagh','Delhi',7,'2015-10-16',300000),
+('S102','Trends','NehruNagar','Mumbai',11,'2015-08-09',400000),
+('S103','Vogue','Vikas Vihar','Delhi',10,'2015-06-27',200000),
+('S104','Superfashion','DefenceColony','Delhi',8,'2015-02-18',450000),
+('S105','Rage','Bandra','Mumbai',5,'2015-09-22',600000);
