@@ -1,0 +1,23 @@
+import mysql.connector as tor
+
+my = tor.connect(
+    host='localhost',
+    user='root',
+    password="",
+    database='python'
+)
+
+a = my.cursor()
+
+y = input("y/n: ")
+
+while y == 'y':
+    t= input("Enter table name: ")
+    q = "DROP TABLE {}".format(t)
+    a.execute(q)
+    
+    my.commit()
+
+    y = input("y/n: ")
+
+my.close()
