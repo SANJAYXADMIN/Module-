@@ -1,0 +1,23 @@
+import mysql.connector as tor
+
+my = tor.connect(
+    host='localhost',
+    user='root',
+    password="",
+    database='python'
+)
+
+a = my.cursor()
+
+y = input("y/n: ")
+
+while y == 'y':
+    b = input("name to delete: ")
+
+    q = "DELETE FROM students WHERE name = '{}'".format(b)
+    a.execute(q)
+    my.commit()
+
+    y = input("y/n: ")
+
+my.close()
